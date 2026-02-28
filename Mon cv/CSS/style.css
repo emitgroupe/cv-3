@@ -1,26 +1,22 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: url(https://img.freepik.com/photos-gratuite/fond-texture-abstrait_1258-30461.jpg);
+    background-color: black;
     color: white;
 }
 
 .profil {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 0px auto;
-    margin-top: 100px;
     gap: 70px;
-    width: 100%;
-    max-width: 1300px;
-    height: min(100vh, 500px);
-    border: 2px solid white;
-    border-radius: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .photo img {
     width: 350px;
     border-radius: 20px;
+    box-shadow: -5px 10px 20px black;
 }
 
 .entete {
@@ -52,24 +48,18 @@ body {
     text-decoration: none;
     margin-right: 10px;
     font-weight: 600;
+    box-shadow: 0 10px 20px black;
 }
 
 .buttons a:hover {
     background: #ffae42;
+    box-shadow: 0 10px 20px black;
 }
 
 .parcours{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 0px auto;
-    margin-top: 100px;
     gap: 70px;
-    width: 100%;
-    max-width: 1300px;
-    height: min(100vh, 500px);
-    border: 2px solid white;
-    border-radius: 20px;
 }
 
 .cadre-1{
@@ -77,6 +67,7 @@ body {
     border-radius: 20px;
     padding: 30px;
     margin: 10px;
+    box-shadow: -5px 10px 20px black;
 }
 
 .ici{
@@ -89,20 +80,14 @@ body {
     margin-right: 10px;
     font-weight: 600;
     align-items: center;
+    box-shadow: 0 10px 20px black;
 }
 
 .ligne-3{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 0px auto;
-    margin-top: 100px;
     gap: 70px;
-    width: 100%;
-    max-width: 1300px;
-    height: min(100vh, 500px);
-    border: 2px solid white;
-    border-radius: 20px;
+    margin-top: 50px;
 }
 
 .projet .texte{
@@ -123,6 +108,7 @@ body {
     text-align: center;
     margin-right: 10px;
     font-weight: 600;
+    box-shadow: 0 10px 20px black;
 }
 
 .expérience h2{
@@ -134,6 +120,7 @@ body {
     text-align: center;
     margin-right: 10px;
     font-weight: 600;
+    box-shadow: 0 10px 20px black;
 }
 
 .compétence h2{
@@ -145,6 +132,7 @@ body {
     text-align: center;
     margin-right: 10px;
     font-weight: 600;
+    box-shadow: 0 10px 20px black;
 }
 
 .qualité h2{
@@ -156,6 +144,7 @@ body {
     text-align: center;
     margin-right: 10px;
     font-weight: 600;
+    box-shadow: 0 10px 20px black;
 }
 
 .langue h2{
@@ -167,6 +156,7 @@ body {
     text-align: center;
     margin-right: 10px;
     font-weight: 600;
+    box-shadow: 0 10px 20px black;
 }
 
 .projet h2{
@@ -178,6 +168,7 @@ body {
     text-align: center;
     margin-right: 10px;
     font-weight: 600;
+    box-shadow: 0 10px 20px black;
 }
 
 .professionnel{
@@ -189,6 +180,16 @@ body {
     text-align: center;
     margin-right: 10px;
     font-weight: 600;
-
+    box-shadow: 0 10px 20px black;
 }
 
+.tout{
+    background: url(https://wallpapers.com/images/hd/black-solid-background-3333-x-5000-s19wzx8cyirxdjpm.jpg);
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 50px;
+    max-width: 1400px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
