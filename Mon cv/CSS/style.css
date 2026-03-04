@@ -214,3 +214,60 @@ body {
 
 }
 
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .tout {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .profil {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .photo img {
+        width: 250px;
+    }
+
+    .salut {
+        font-size: 50px;
+    }
+
+    .entete {
+        max-width: 100%;
+    }
+
+    .parcours {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .ligne-3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cadre-4 {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .buttons a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+}
+
+
